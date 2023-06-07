@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,93 +8,71 @@
     <title>NETFLIX CLONE</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/responsive.css">
-        <!--owl css-->
+    <!--owl css-->
     <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
 
 
-    
+
 </head>
+
 <body>
-<header>
-    <div class="container">
-        <h2 class="logo">NETFLIX</h2>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Séries</a>
-            <a href="#">Filmes</a>
-            <a href="#">Documentários</a>
-           
-        </nav>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
 
-    </div>
-</header>
+            </nav>
 
-<header>
-    <dialog>
-        <i id="close" class="fa-solid fa-circle-xmark"></i>
-        <div class="dialog-principal">
+        </div>
+    </header>
 
+    
+    <main>
+        <div class="filme-principal">
             <div class="container">
-                  
-                    <button class="botao">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar
+                    Washington.</p>
+
+                <div class="botoes">
+                    <button role="button" class="botao" id="playvideo">
                         <i class="fa-solid fa-play"></i>
-                        Assistir proximo episódio
-                      </button>
-               
-                    <i class="fa-sharp fa-regular fa-circle-check fa-2xl" style="color: #ffffff; opacity: 0.8;"></i>
-
-                    <i class="fa-sharp fa-regular fa-thumbs-up fa-2xl" style="color: #ffffff; opacity: 0.8;"></i>
-
-                    <i class="fa-sharp fa-regular fa-thumbs-down fa-2xl" style="color: #ffffff; opacity: 0.8;"></i>
-             
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao" id="moredetails">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
                 </div>
             </div>
+
         </div>
-    </dialog>
-</header>
+    </main>
+
+    <section>
+        <div class="carrosel-filmes">
+
+            <h3 class="topico">Populares na Netflix</h3>
+            <div class="owl-carousel owl-theme" id="populares"></div>
+
+            <h3 class="topico">Assistidos recentemente</h3>
+            <div class="owl-carousel owl-theme" id="recentemente"></div>
+    </section>
 
 
-
-<main>
-    <div class="filme-principal">
-        <div class="container">
-            <h3 class="titulo">HOUSE OF CARDS</h3>
-            <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington.</p>
-
-        <div class="botoes">
-          <button role="button" class="botao" id="playvideo">
-            <i class="fa-solid fa-play"></i>
-            ASSISTIR AGORA
-         </button>
-         <button role="button"  class="botao" id="moredetails">
-            <i class="fa-solid fa-circle-info"></i>
-            MAIS INFORMAÇÕES
-         </button>
-        </div>
-        </div>
-      
-    </div>
-</main>
-
-<section>
-    <div class="carrosel-filmes">
-
-        <h3 class="topico">Populares na Netflix</h3>
-        <div class="owl-carousel owl-theme" id="populares"></div> 
-        
-        <h3 class="topico">Assistidos recentemente</h3>
-        <div class="owl-carousel owl-theme" id="recentemente"></div>
-</section>
-
-
-<script src="./js/dinamic.js"></script>
-<!-- owl -->
-<script src="./js/owl/jquery.min.js"></script>
-<script src="./js/owl/owl.carousel.min.js"></script>
-<script src="./js/setup.js"></script>
-<!-- icons -->
-<script src="https://kit.fontawesome.com/55477fb29a.js" crossorigin="anonymous"></script>
+    <script src="./js/dinamic.js"></script>
+    <!-- owl -->
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/setup.js"></script>
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/55477fb29a.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

@@ -1,12 +1,12 @@
 /* Variaveis */
-:root{
-   --vermelho:#E50914;
-   --preta: #141414;
-   --cinza: #AAAA;
-   --white: #ffffff;
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+    --cinza: #AAAA;
+    --white: #ffffff;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -14,41 +14,41 @@
 
 /* elementos base */
 
-body{
-background: var(--preta);
-font-family: 'Arial', 'Times New Roman', Times, serif;
-color: var(--white);
+body {
+    background: var(--preta);
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    color: var(--white);
 }
 
-header .container{
-display: flex;
-align-items: center;
-justify-content: space-between;
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header .logo{
-    color : var(--vermelho);
+header .logo {
+    color: var(--vermelho);
     font-family: 'Arial Black', Helvetica, sans-serif;
     font-size: 40px;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
-    color:var(--cinza);
+    color: var(--cinza);
     margin-right: 10px;
 }
 
-header nav a:hover{
-   
-    color:var(--white);
-    
+header nav a:hover {
+
+    color: var(--white);
+
 }
 
 /* filme principal */
 
-.filme-principal{
+.filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/houseofcards.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/houseofcards.jpg');
     height: 480px;
     background-size: cover;
 
@@ -59,20 +59,21 @@ header nav a:hover{
 
 }
 
-.filme-principal .descricao{
+.filme-principal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
 
-.titulo{
-margin-top: 15%;
-font-size: 40px;   
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'; 
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'; 
+
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
+.botao {
+    background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
     padding: 15px 30px;
@@ -82,57 +83,27 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     transition: .5s ease all;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: white;
     color: black;
 }
 
-.botao i{
+.botao i {
     margin-right: 8px;
 }
 
-.container{
+.container {
     margin-left: 30px;
 }
 
-.filme-principal .container{
+.filme-principal .container {
     width: 80%;
 }
 
-.topico{
+.topico {
     font-size: 25px;
     margin: 20px;
-    padding-left:16px ;
+    padding-left: 16px;
     font-family: Arial
 }
 
-
-dialog{
-    margin: auto;
-    background: url('../img/houseofcardsdetails.jpg');
-    height: 480px;
-    width: 900px;
-    margin: auto;
-    background-size: cover;
-    display: flex; 
-    flex-direction: column;
-    justify-content: end; 
-  
-    
-}
-
-#close{
-    text-align: end;
-    padding: 16px;
-    margin-bottom: auto;
-}
-
-
-.dialog-principal{
- margin-bottom: 15px;
- display: flex;
- 
-}
-.dialog-principal i{
-    margin-left: 20px;
-}
