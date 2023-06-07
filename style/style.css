@@ -105,3 +105,34 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     padding-left:16px ;
     font-family: Arial
 }
+
+
+dialog{
+    margin: auto;
+    background: url('../img/houseofcardsdetails.jpg');
+    height: 480px;
+    width: 900px;
+    margin: auto;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+    justify-content: end; 
+  
+    
+}
+
+#close{
+    text-align: end;
+    padding: 16px;
+    margin-bottom: auto;
+}
+
+
+.dialog-principal{
+ margin-bottom: 15px;
+ display: flex;
+ 
+}
+.dialog-principal i{
+    margin-left: 20px;
+}

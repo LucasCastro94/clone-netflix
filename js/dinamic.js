@@ -59,3 +59,22 @@ for(let file of recentementeImg)
 
   carrosselRecentes.appendChild(divItem);
 }
+
+const modal = document.getElementsByTagName('dialog')[0]
+const buttonPlay = document.getElementById('playvideo')
+const buttonDetails = document.getElementById('moredetails')
+const dialogClose = document.getElementById("close")
+
+buttonPlay.addEventListener('click',()=>{
+  alert("Botao Play")
+})
+
+buttonDetails.addEventListener('click',()=>{
+  alert("More details")
+modal.show()
+})
+
+dialogClose.addEventListener('click',()=>{
+  alert('Fechar modal')
+  modal.close()
+})
