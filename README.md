@@ -1,0 +1,2 @@
+# Clone da pagina do Netflix
+Projeto simples de uma pequena parte de uma tela da Netflix, onde o objetivo era criar os elementos e estilizar, tudo com html e css, para criação do carrosel foi utilizado Jquery com o framework owlcarrosel.
